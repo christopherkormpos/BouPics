@@ -1,2 +1,4 @@
-Navbar photography and videography to show on responsive 
-portfolio to become unable to press
+Bootstrap addition done
+Hamburger change on icon
+Styles change on Navbar based on color palletes
+Bootstrap docs read

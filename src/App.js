@@ -1,20 +1,21 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
 import { Home } from "./components/Pages/Home";
-import { Portfolio } from "./components/Pages/Portfolio";
+import { Photography } from "./components/Pages/Photography";
+import { Videography } from "./components/Pages/Videography";
 import { Contact } from "./components/Pages/Contact";
 
 function App() {
   return (
     <>
       <Router>
-        <NavBar />
-
+        <Navbar />
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/photography" element={<Photography />} />
+            <Route path="/videography" element={<Videography />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>

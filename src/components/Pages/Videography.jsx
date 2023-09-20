@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Portfolio = () => {
+export const Videography = () => {
   return (
     <div>
-      <h1>Portfolio</h1>
+      <h1>Videography</h1>
     </div>
   );
 };
