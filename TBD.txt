@@ -1,4 +1,3 @@
-Bootstrap addition done
-Hamburger change on icon
-Styles change on Navbar based on color palletes
-Bootstrap docs read
+Footer component addition and styles 
+Home page initialization with undraw images (structure with lorem text)
+Contact page initialization with undraw images
