@@ -1,2 +1,8 @@
-Home page initialization with undraw images (structure with lorem text)
-Contact page initialization with undraw images
+Color palletes establishment
+Styles final decision
+Navbar same color as body
+Videography page initialization
+Navbar to be on the side when active on mobile and have an x instead of burger
+
+Main Home idea:
+    George profile picture square with rounded corners with an undraw picture (colored right) down and right collapsing

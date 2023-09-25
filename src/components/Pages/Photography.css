@@ -6,13 +6,21 @@
 .image-container {
     position: relative;
     text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    /* Adjust the maximum width and height to match your design */
+    max-width: 350px;
+    max-height: 420px;
+    transition: transform 0.3s ease;
+    transition: 1s ease;
+    cursor: pointer;
 }
 
 img {
     width: 350px;
     height: 420px;
     object-fit: cover;
-    zoom: 110%;
+    transition: 1s ease;
 }
 
 .photography div {
@@ -35,4 +43,9 @@ h2 {
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.image-container:hover img {
+    transform: scale(1.15);
+    transition: 1s ease;
 }

@@ -1,0 +1,14 @@
+.content1{
+    display: flex;
+    justify-content: center;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+}
+.paragraph1{
+    font-size:35px;
+}
+.paragraph2{
+    font-size:35px;
+}
