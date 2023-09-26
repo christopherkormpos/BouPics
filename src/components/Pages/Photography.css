@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-img {
+.image-container img{
     width: 350px;
     height: 420px;
     object-fit: cover;

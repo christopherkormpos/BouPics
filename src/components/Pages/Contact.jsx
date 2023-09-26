@@ -6,7 +6,7 @@ export const Contact = () => {
     <div>
       <h1>Contact Us</h1>
       <div className="div-contact">
-        <img src="./images/contact.png" alt="" />
+        <img src="./images/contact.svg" alt="" className="contact-img"/>
         <div>
           <p>Find us here!</p>
         </div>

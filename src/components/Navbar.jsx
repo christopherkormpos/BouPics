@@ -8,7 +8,7 @@ function Navigationbar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar" sticky="top" >
       <Container className='container'>
-        <Navbar.Brand href="/">BouPics</Navbar.Brand>
+        <Navbar.Brand href="/">logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
