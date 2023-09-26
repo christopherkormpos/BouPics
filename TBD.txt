@@ -1,7 +1,6 @@
-Color palletes establishment
-Styles final decision
-Navbar same color as body
+Contact page initialization
 Videography page initialization
+Footer links and privacy policy terms change
 Navbar to be on the side when active on mobile and have an x instead of burger
 
 Main Home idea:
