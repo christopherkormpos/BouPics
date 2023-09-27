@@ -1,10 +1,33 @@
 .div-contact{
     display: flex;
     justify-content: center;
-}
-p{
-    font-size: 35px;
+    margin-bottom: 150px;
 }
 .contact-img{
-    width: 350px;
+    width: 450px;
+    padding-right: 100px;
+}
+.p-contact{
+    margin-top: -80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    font-size: 27px;
+}
+.contact-info{
+    border-left: 1.5px solid #e4edf4;
+    padding-left: 100px;
+    text-align: left; 
+}
+.contact-info p{
+    font-size: 30px;
+}
+.fa-briefcase{
+    width: 40px;
+}
+.fa-envelope{
+    width: 40px;
+}
+.contact-info .fa{
+    color: #ff5d47;
 }

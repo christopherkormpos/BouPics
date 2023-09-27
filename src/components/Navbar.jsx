@@ -15,7 +15,8 @@ function Navigationbar() {
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Portfolio" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="/photography">Photography</NavDropdown.Item>
-              <NavDropdown.Item href="/videography">Videography</NavDropdown.Item>
+             {/* <NavDropdown.Item href="/videography">Videography</NavDropdown.Item> */ }
+             {/* VIDEOGRAPHY DROPDOWN ABOVE*/} 
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
