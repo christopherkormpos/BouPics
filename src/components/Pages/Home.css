@@ -1,35 +1,63 @@
-.content1{
+.content1 {
     display: flex;
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
 }
-.content2{
+
+.content3 {
     display: flex;
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
 }
-.paragraph1{
-    font-size:35px;
+
+.paragraph1 {
+    font-size: 30px;
+    text-align: left;
 }
-.paragraph1-image{
+
+.paragraph1-image {
     width: 350px;
+    margin-left: 50px;
 }
-.paragraph2{
-    font-size:35px;
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
 }
-.paragraph2-image{
+
+.paragraph2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.paragraph2-image {
     width: 350px;
+    margin-left: 50px;
 }
+
+.paragraph3 {
+    font-size: 30px;
+    text-align: right;
+}
+
+.paragraph3-image {
+    width: 350px;
+    margin-right: 50px;
+}
+
 .name {
     font-size: 140px;
     font-weight: 700;
     margin-top: -130px;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .img-main {
@@ -38,4 +66,19 @@
     position: relative;
     z-index: 0;
     margin-bottom: 100px;
+}
+button{
+    background: none;
+    color: #ff5d47;
+    border: 2px solid;
+    padding: 15px 20px;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+button:hover{
+    border-color: #fa6a57;
+    color: #e4edf4;
+    box-shadow: 0 15px 15px -15px #fa6a57;
+    transform: translateY(-5px);
+    cursor: pointer;
 }
