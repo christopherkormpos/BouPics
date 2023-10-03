@@ -1,4 +1,3 @@
-Home page with a section that goes to portfolio page (2 choices - photography/videography with 2nd to be coming soon state)
 3 new pages - Weddings/ Motorsport/ Landscapes 
 Footer links and privacy policy terms change
 Navbar to be on the side when active on mobile and have an x instead of burger

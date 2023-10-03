@@ -6,6 +6,7 @@ import { Home } from "./components/Pages/Home";
 import { Photography } from "./components/Pages/Photography";
 import { Videography } from "./components/Pages/Videography";
 import { Contact } from "./components/Pages/Contact";
+import { Portfolio } from "./components/Pages/Portfolio";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/photography" element={<Photography />} />
             <Route path="/videography" element={<Videography />} />
             <Route path="/contact" element={<Contact />} />
