@@ -7,6 +7,7 @@ import { Photography } from "./components/Pages/Photography";
 import { Videography } from "./components/Pages/Videography";
 import { Contact } from "./components/Pages/Contact";
 import { Portfolio } from "./components/Pages/Portfolio";
+import { PrivacyPolicy } from "./components/Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/photography" element={<Photography />} />
             <Route path="/videography" element={<Videography />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           </Routes>
         </div>
         <Footer />

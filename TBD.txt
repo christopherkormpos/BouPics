@@ -7,4 +7,4 @@ Main Home idea:
     + paragraph who i am
 Later on:
     Transitions
-    Visitor stats/ tracking
+    Visitor stats/ tracking - Google Analytics
