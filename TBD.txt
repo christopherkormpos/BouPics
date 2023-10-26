@@ -1,5 +1,4 @@
-3 new pages - Weddings/ Motorsport/ Landscapes 
-Navbar to be on the side when active on mobile and have an x instead of burger
+Map function on the 3 new pages - weddings - motorsport and landscapes
 
 Main Home idea:
     George profile picture square with rounded corners with an undraw picture (colored right) down and right collapsing
