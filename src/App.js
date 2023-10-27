@@ -8,9 +8,9 @@ import { Videography } from "./components/Pages/Videography";
 import { Contact } from "./components/Pages/Contact";
 import { Portfolio } from "./components/Pages/Portfolio";
 import { PrivacyPolicy } from "./components/Pages/PrivacyPolicy";
-import { Weddings } from "./components/Pages/Weddings";
-import { Motorsport } from "./components/Pages/Motorsport";
-import { Landscapes } from "./components/Pages/Landscapes";
+import Weddings from './components/Pages/Weddings';
+import Motorsport  from "./components/Pages/Motorsport";
+import Landscapes from "./components/Pages/Landscapes";
 
 function App() {
   return (
