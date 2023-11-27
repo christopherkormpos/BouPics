@@ -67,4 +67,10 @@
         z-index: 1000; /* Set a high z-index to make it appear in front */
         top: 0; /* Stick it to the top */
       }
+    .nav-link{
+        font-size: 20px;
+    }
+    .dropdown-item{
+        font-size: 18px;
+    }
   }

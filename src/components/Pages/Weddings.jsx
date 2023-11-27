@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../Card'
+import "./Pages.css";
 
 function Weddings() {
     const numberOfImages = 9; // Update this number

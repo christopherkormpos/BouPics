@@ -21,7 +21,10 @@ export default function Footer() {
                 </div>
 
                 <div class="row">
-                    Copyright © 2024 BouPics - All rights reserved || Powered by <a href="https://www.linkedin.com/in/christopher-kormpos-27808b194/" target="_blank" rel="noreferrer" className='chris'>Christopher Kormpos</a>
+                    <p>
+                        Copyright © 2024 BouPics - All rights reserved || <p className='powered'>Powered by <a href="https://www.linkedin.com/in/christopher-kormpos-27808b194/" target="_blank" rel="noreferrer" className='chris'>Christopher Kormpos</a>
+                        </p>
+                        </p>
                 </div>
             </div>
         </footer>

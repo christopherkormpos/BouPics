@@ -22,7 +22,7 @@ export const Contact = () => {
             <i class="fa fa-briefcase"></i>Business hours | 9:00 - 17:00</p>
         </div>
       </div>
-      <p className="p-contact">We look forward to connecting with you and creating beautiful memories together!</p>
+      <p className="p-contact-extra">We look forward to connecting with you and creating beautiful memories together!</p>
     </div>
   );
 };

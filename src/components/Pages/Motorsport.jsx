@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../Card'
+import "./Pages.css";
 
 function Motorsport() {
     // Create an array with the number of images you have

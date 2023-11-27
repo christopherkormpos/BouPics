@@ -3,6 +3,6 @@ Main Home idea:
     George profile picture square with rounded corners with an undraw picture (colored right) down and right collapsing
     + paragraph who i am
 Later on:
+    Size fix on portfolio and photography cards on max width 990px
     Transitions
-    Responsive styles
     Visitor stats/ tracking - Google Analytics

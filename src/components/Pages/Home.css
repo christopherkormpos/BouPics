@@ -67,7 +67,8 @@
     z-index: 0;
     margin-bottom: 100px;
 }
-button{
+
+button {
     background: none;
     color: #ff5d47;
     border: 2px solid;
@@ -75,10 +76,82 @@ button{
     font-size: 25px;
     transition: all 0.5s;
 }
-button:hover{
+
+button:hover {
     border-color: #fa6a57;
     color: #e4edf4;
     box-shadow: 0 15px 15px -15px #fa6a57;
     transform: translateY(-5px);
     cursor: pointer;
+}
+
+@media (max-width: 990px) {
+
+    .content1,
+    .content2,
+    .content3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .content3{
+        flex-direction: column-reverse;
+    }
+    .paragraph1,
+    .paragraph2,
+    .paragraph3 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .paragraph1-image,
+    .paragraph2-image,
+    .paragraph3-image {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .name {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .img-main {
+        object-fit: cover;
+        margin-top: -40px;
+        margin-bottom: 50px;
+        width: 90%;
+        /* Make the image responsive */
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    button {
+        background: none;
+        color: #ff5d47;
+        border: 2px solid;
+        padding: 15px 20px;
+        font-size: 15px;
+        transition: all 0.5s;
+        margin-bottom: 20px;
+    }
+
+    button:hover {
+        border-color: #fa6a57;
+        color: #e4edf4;
+        box-shadow: 0 15px 15px -15px #fa6a57;
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
 }
