@@ -1,4 +1,5 @@
 import './Card.css';
+import "./Navbar.css";
 
 export default function Card(props) {
     return (

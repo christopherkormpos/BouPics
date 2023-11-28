@@ -1,4 +1,3 @@
-import "./Navbar.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -17,7 +16,7 @@ function Navigationbar() {
             <NavDropdown title="Portfolio" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="/photography">Photography</NavDropdown.Item>
              {/* <NavDropdown.Item href="/videography">Videography</NavDropdown.Item> */ }
-             {/* VIDEOGRAPHY DROPDOWN ABOVE*/} 
+             {/* VIDEOGRAPHY DROPDOWN ABOVE*/}
             </NavDropdown>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
